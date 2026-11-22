@@ -47,6 +47,17 @@ The image was built successfully, the container was tested on port 8080, and the
 
 ![Successful cloud deployment](docs/cloud-deployment-cropped.png)
 
+## Deployment verification checklist
+
+- Confirm that the image is present with `docker images`.
+- Confirm the local container is running with `docker ps`.
+- Open the forwarded port 8080 and test a quiz answer.
+- Confirm the registry upload completed and returned an image digest.
+- Check the Code Engine application status and open its returned HTTPS URL.
+- Test a quiz answer again in the cloud-hosted application.
+
+The original lab used temporary Skills Network resources. Preserve deployment evidence before the lab expires. For a personal cloud account, review active resources and billing after testing and clean up unused resources to avoid ongoing charges.
+
 ## Learning outcomes
 
 - Docker image builds and container port mapping
