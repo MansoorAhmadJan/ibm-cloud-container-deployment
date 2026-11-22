@@ -45,7 +45,7 @@ ibmcloud ce application get --name guess-the-capital
 
 The image was built successfully, the container was tested on port 8080, and the application was verified at its Code Engine HTTPS endpoint. The lab environment is temporary; the original deployment may expire.
 
-![Successful cloud deployment](docs/cloud-deployment.png)
+![Successful cloud deployment](docs/cloud-deployment-cropped.png)
 
 ## Learning outcomes
 
